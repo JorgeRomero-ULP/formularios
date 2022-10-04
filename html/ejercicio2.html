@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 formularios</title>
+</head>
+<body>
+    <div style="width: 600px; border:1px solid; padding: 0px 0px 15px 10px;">
+        <h1>
+            HTML Validation Service
+        </h1>
+        <p>
+            Welcome to the W3C HTML Validation Service. It checks HTML documents for conformation XHTML Recommendations and other HTML standarts. Recent updates include:
+        </p>
+        <ul>
+            <li>
+                <a href="#">Added file upload feature</a>(April 28,2000)
+            </li>
+            <li>
+                <a href="#">Added support for HTML 4.01, update XHTML 1.0 DTDs</a>(August 24, 1999)
+            </li>
+            <li>
+                <a href="#">more</a>
+            </li>
+        </ul>
+        <p>
+            Enter the address (<a href="#">URL</a>) of a document you would like to validate:
+        </p>        
+        <form action="#" name="mi formulario" method="get">
+            <label for="address">Addres</label>
+            <input type="text" name="textaddress" id="address" size="55"><br>
+            <input type="checkbox" name="check1" id="c1">
+            <label for="c1">Show source input</label>
+            <input type="checkbox" name="check2" id="c2">
+            <label for="c2">Show an outline of this documents</label><br>
+            <input type="checkbox" name="check3" id="c3">
+            <label for="c3">Show parse tree&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="checkbox" name="check4" id="c4">
+            <label for="c4">exclude attributes from the parse tree</label><br>
+            <input type="submit" value="     Validate this page     ">
+            <input type="reset" value="       Reset this form      ">
+        </form>
+    </div>
+</body>
+</html>
