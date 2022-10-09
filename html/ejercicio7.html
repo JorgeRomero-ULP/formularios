@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+    <style>
+        .form {
+            width: 500px;
+            padding: 0px 0px 10px 15px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <form action="#" name="mi formulario" method="get"><br>
+        <label for="nom">Nombre:</label>
+        <input type="text" name="nombre" id="nom" size="15">
+        <label for="fech">F.Nac.:</label>
+        <input type="text" name="fechnac" id="fech" size="6" maxlength="10">
+        <label for="dni">DNI:</label>
+        <input type="text" name="ident" id="dni" size="6" maxlength="8"><br><br>
+        <label for="ape">Apellidos:</label>
+        <input type="text" name="apellido" id="ape" size="40"><br><br>
+        <label for="calle">Calle y numero:</label>
+        <input type="text" name="callenum" id="calle" size="45"><br><br>
+        <label for="cp">Codigo Postal:</label>
+        <input type="text" name="cpostal" id="cp" size="2" maxlength="4">
+        <label for="city">Ciudad:</label>
+        <input type="text" name="ciudad" id="city" size="35"><br><br>
+        <label for="pro">Provincia:</label>
+        <input type="text" name="provincia" id="pro">
+        <label for="tel">Telefono:</label>
+        <input type="text" name="apellido" id="tel" size="15"><br><br>
+        <label for="op1">Opcion:</label> 
+        <select name="opciones" id="op1">
+            <option value="opcion 1">Opcion 1</option>
+            <option value="opcion 2">Opcion 2</option>
+            <option value="opcion 3">Opcion 3</option>
+            <option value="opcion 4">Opcion 4</option>
+            <option value="opcion 5">Opcion 5</option>
+            <option value="opcion 6" selected></option>
+        </select>
+        <label for="op1">Escoja una opcion</label><br><br>
+        <label for="coment">Comentarios personales:</label>
+        <textarea name="Comentarios" id="coment" cols="40" rows="3"></textarea>      
+    </form>
+    </div>
+    
+</body>
+</html>
