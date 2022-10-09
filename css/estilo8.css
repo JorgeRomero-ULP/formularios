@@ -50,7 +50,7 @@ select {
 textarea {
     box-shadow: -2px -1px 3px 0px #b4b4b4;
     border-radius: 3px;
-    background-image: url(img/txt.png);
+    background-image: url(../img/txt.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
